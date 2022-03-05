@@ -1,10 +1,10 @@
 async function main() {
-    const MoneyCarlo = await ethers.getContractFactory("MoneyCarlo")
+    const CollectorsSwap = await ethers.getContractFactory("CollectorsSwap")
 
     // Start deployment, returning a promise that resolves to a contract object
-    const moneyCarloInstance = await MoneyCarlo.deploy()
-    await moneyCarloInstance.deployed()
-    console.log("Contract deployed to address:", moneyCarloInstance.address)
+    const collectorsSwapInstance = await CollectorsSwap.deploy()
+    await collectorsSwapInstance.deployed()
+    console.log("Contract deployed to address:", collectorsSwapInstance.address)
 }
 
 main()

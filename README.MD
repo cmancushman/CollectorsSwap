@@ -10,3 +10,7 @@ Individual watch collectors and watch vendors suffer from authenticity issues in
 
 ## Todos
 - Add authenticity validation objects, so that an individual watch can get verified multiple times.
+
+## Gas Estimates by Operation
+The following is the average gas consumption by each operation completed in the testing suite:
+![alt text](./GasEstimates.png)
